@@ -34,19 +34,19 @@
 # else:
 #     print("You failed") 
 
-# # Salary increment based on experince
-# Salary = int(input("Your actual salary:"))
-# Experience = int(input("Enter your years of experience:"))
+# Salary increment based on experince
+salary = int(input("Your actual salary:"))
+Experience = int(input("Enter your years of experience:"))
 
-# if Experience >= 10:
-#     New_salary = Salary * 1.5
-#     print(f"Your new salary is: {New_salary} Rwf")
+if Experience >= 10:
+    Newsalary = salary + (salary * 0.005)
+    print("Your new salary is:", Newsalary)
     
-# elif Experience >= 5:
-#     New_salary = Salary * 1.2
-#     print(f"Your new salary is: {New_salary} Rwf")
+elif Experience >= 5:
+    Newsalary = salary + (salary * 0.002)
+    print("Your new salary is:", Newsalary)
     
-# else:
-#     print(f"Your salary {Salary} Rwf")
+else:
+    print("work hard")
 
    
